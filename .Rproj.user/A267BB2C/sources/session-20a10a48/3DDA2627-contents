@@ -1,0 +1,139 @@
+---
+title: "Design and Analysis of Networked Experiments 2024"
+subtitle: "17-19 July, King's College London"
+---
+
+## Programme
+
+All scientific sessions are in the River room. Coffee, lunch and tea are in Room K2.40.
+
+```{r}
+#| message: false
+library(gt)
+library(readr)
+library(janitor)
+library(dplyr)
+
+prog <- read_csv("data/programme.csv", 
+                 col_types = cols(.default = col_character()))
+prog <- clean_names(prog)
+```
+
+
+::: {.panel-tabset}
+
+## Wednesday
+
+```{r}
+#| column: screen
+prog |> 
+  filter(day == "Wednesday") |>
+  select(-day) |>
+  gt(rowname_col = "time") |>
+  sub_missing(
+    missing_text = ""
+    ) |>
+  fmt_markdown(
+    columns = abstract
+  ) |>
+  tab_options(
+    table.width = pct(100),
+    column_labels.hidden = TRUE
+    ) |>
+  cols_width(
+    time ~ pct(6),
+    abstract ~ pct(50),
+    speaker ~ pct(10),
+    affiliation ~ pct(9),
+    title ~ pct(15)
+  ) |>
+  opt_row_striping() |>
+  tab_style(
+    style = cell_text(
+      weight = "bold"
+    ),
+    locations = cells_body(
+      columns = c(speaker, affiliation, title),
+      rows = everything()
+      )
+  )
+```
+
+## Thursday
+
+```{r}
+#| column: screen
+prog |> 
+  filter(day == "Thursday") |>
+  select(-day) |>
+  gt(rowname_col = "time") |>
+  sub_missing(
+    missing_text = ""
+    ) |>
+  fmt_markdown(
+    columns = abstract
+  ) |>
+  tab_options(
+    table.width = pct(100),
+    column_labels.hidden = TRUE
+    ) |>
+  cols_width(
+    time ~ pct(6),
+    abstract ~ pct(50),
+    speaker ~ pct(10),
+    affiliation ~ pct(9),
+    title ~ pct(15)
+  ) |>
+  opt_row_striping() |>
+  tab_style(
+    style = cell_text(
+      weight = "bold"
+    ),
+    locations = cells_body(
+      columns = c(speaker, affiliation, title),
+      rows = everything()
+      )
+  )
+```
+
+## Friday
+
+```{r}
+#| column: screen
+prog |> 
+  filter(day == "Friday") |>
+  select(-day) |>
+  gt(rowname_col = "time") |>
+  sub_missing(
+    missing_text = ""
+    ) |>
+  fmt_markdown(
+    columns = abstract
+  ) |>
+  tab_options(
+    table.width = pct(100),
+    column_labels.hidden = TRUE
+    ) |>
+  cols_width(
+    time ~ pct(6),
+    abstract ~ pct(50),
+    speaker ~ pct(10),
+    affiliation ~ pct(9),
+    title ~ pct(15)
+  ) |>
+  opt_row_striping() |>
+  tab_style(
+    style = cell_text(
+      weight = "bold"
+    ),
+    locations = cells_body(
+      columns = c(speaker, affiliation, title),
+      rows = everything()
+      )
+  )
+```
+
+:::
+
+
+

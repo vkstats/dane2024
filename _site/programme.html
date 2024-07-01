@@ -1,0 +1,1976 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.353">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>DANE 2024 - Design and Analysis of Networked Experiments 2024</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">DANE 2024</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./location.html" rel="" target="">
+ <span class="menu-text">Location</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./programme.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Programme</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Design and Analysis of Networked Experiments 2024</h1>
+<p class="subtitle lead">17-19 July, King’s College London</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="programme" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="programme">Programme</h2>
+<p>All scientific sessions are in the River room. Coffee, lunch and tea are in Room K2.40.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset page-columns page-full">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Wednesday</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Thursday</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Friday</a></li></ul>
+<div class="tab-content page-columns page-full">
+<div id="tabset-1-1" class="tab-pane active page-columns page-full" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div class="cell page-columns page-full">
+<div class="cell-output-display column-screen">
+
+<div id="wpmklrnxxg" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#wpmklrnxxg table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#wpmklrnxxg thead, #wpmklrnxxg tbody, #wpmklrnxxg tfoot, #wpmklrnxxg tr, #wpmklrnxxg td, #wpmklrnxxg th {
+  border-style: none;
+}
+
+#wpmklrnxxg p {
+  margin: 0;
+  padding: 0;
+}
+
+#wpmklrnxxg .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: 100%;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#wpmklrnxxg .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#wpmklrnxxg .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#wpmklrnxxg .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#wpmklrnxxg .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#wpmklrnxxg .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#wpmklrnxxg .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#wpmklrnxxg .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#wpmklrnxxg .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#wpmklrnxxg .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#wpmklrnxxg .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#wpmklrnxxg .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#wpmklrnxxg .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#wpmklrnxxg .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#wpmklrnxxg .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#wpmklrnxxg .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#wpmklrnxxg .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#wpmklrnxxg .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#wpmklrnxxg .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#wpmklrnxxg .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#wpmklrnxxg .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#wpmklrnxxg .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#wpmklrnxxg .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#wpmklrnxxg .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#wpmklrnxxg .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#wpmklrnxxg .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#wpmklrnxxg .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#wpmklrnxxg .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#wpmklrnxxg .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#wpmklrnxxg .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#wpmklrnxxg .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#wpmklrnxxg .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#wpmklrnxxg .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#wpmklrnxxg .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#wpmklrnxxg .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#wpmklrnxxg .gt_left {
+  text-align: left;
+}
+
+#wpmklrnxxg .gt_center {
+  text-align: center;
+}
+
+#wpmklrnxxg .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#wpmklrnxxg .gt_font_normal {
+  font-weight: normal;
+}
+
+#wpmklrnxxg .gt_font_bold {
+  font-weight: bold;
+}
+
+#wpmklrnxxg .gt_font_italic {
+  font-style: italic;
+}
+
+#wpmklrnxxg .gt_super {
+  font-size: 65%;
+}
+
+#wpmklrnxxg .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#wpmklrnxxg .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#wpmklrnxxg .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#wpmklrnxxg .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#wpmklrnxxg .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#wpmklrnxxg .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#wpmklrnxxg .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+<table class="gt_table" style="table-layout: fixed;; width: 100%" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+  <colgroup>
+    <col style="width:6%;">
+    <col style="width:10%;">
+    <col style="width:9%;">
+    <col style="width:15%;">
+    <col style="width:50%;">
+  </colgroup>
+  
+  <tbody class="gt_table_body">
+    <tr><th id="stub_1_1" scope="row" class="gt_row gt_right gt_stub">10:30 - 11:00</th>
+<td headers="stub_1_1 speaker" class="gt_row gt_left" style="font-weight: bold;">Registration and coffee</td>
+<td headers="stub_1_1 affiliation" class="gt_row gt_left" style="font-weight: bold;"></td>
+<td headers="stub_1_1 title" class="gt_row gt_left" style="font-weight: bold;"></td>
+<td headers="stub_1_1 abstract" class="gt_row gt_left"></td></tr>
+    <tr><th id="stub_1_2" scope="row" class="gt_row gt_right gt_stub">11:00 - 12.00</th>
+<td headers="stub_1_2 speaker" class="gt_row gt_left gt_striped" style="font-weight: bold;">Keynote 1</td>
+<td headers="stub_1_2 affiliation" class="gt_row gt_left gt_striped" style="font-weight: bold;"></td>
+<td headers="stub_1_2 title" class="gt_row gt_left gt_striped" style="font-weight: bold;"></td>
+<td headers="stub_1_2 abstract" class="gt_row gt_left gt_striped"></td></tr>
+    <tr><th id="stub_1_3" scope="row" class="gt_row gt_right gt_stub"></th>
+<td headers="stub_1_3 speaker" class="gt_row gt_left" style="font-weight: bold;">Dean Eckles</td>
+<td headers="stub_1_3 affiliation" class="gt_row gt_left" style="font-weight: bold;"></td>
+<td headers="stub_1_3 title" class="gt_row gt_left" style="font-weight: bold;"></td>
+<td headers="stub_1_3 abstract" class="gt_row gt_left"></td></tr>
+    <tr><th id="stub_1_4" scope="row" class="gt_row gt_right gt_stub">12:00 - 13:30</th>
+<td headers="stub_1_4 speaker" class="gt_row gt_left gt_striped" style="font-weight: bold;">Lunch</td>
+<td headers="stub_1_4 affiliation" class="gt_row gt_left gt_striped" style="font-weight: bold;"></td>
+<td headers="stub_1_4 title" class="gt_row gt_left gt_striped" style="font-weight: bold;"></td>
+<td headers="stub_1_4 abstract" class="gt_row gt_left gt_striped"></td></tr>
+    <tr><th id="stub_1_5" scope="row" class="gt_row gt_right gt_stub">13:30 - 14:30</th>
+<td headers="stub_1_5 speaker" class="gt_row gt_left" style="font-weight: bold;">Keynote 2</td>
+<td headers="stub_1_5 affiliation" class="gt_row gt_left" style="font-weight: bold;"></td>
+<td headers="stub_1_5 title" class="gt_row gt_left" style="font-weight: bold;"></td>
+<td headers="stub_1_5 abstract" class="gt_row gt_left"></td></tr>
+    <tr><th id="stub_1_6" scope="row" class="gt_row gt_right gt_stub"></th>
+<td headers="stub_1_6 speaker" class="gt_row gt_left gt_striped" style="font-weight: bold;">Nathaniel Stevens</td>
+<td headers="stub_1_6 affiliation" class="gt_row gt_left gt_striped" style="font-weight: bold;">University of Waterloo</td>
+<td headers="stub_1_6 title" class="gt_row gt_left gt_striped" style="font-weight: bold;">Design and Analysis of Network A/B Tests with General Additive Network Effect Models</td>
+<td headers="stub_1_6 abstract" class="gt_row gt_left gt_striped"><div class="gt_from_md"><p>As a means of continual improvement and innovation, online controlled experiments are widely used by internet and technology companies to test and evaluate product changes, and new features, and to ensure that user feedback drives decisions. This is true of companies like LinkedIn, Facebook, and X, large online social networks. However, experiments on networks are complicated by the fact that the stable unit treatment value assumption (SUTVA) no longer holds. Due to the interconnectivity of users in these networks, a user’s outcome may be influenced by their own treatment assignment as well as the treatment assignment of those they are socially connected with. The design and analysis of the experiment must account for this. The general additive network effect (GANE) family of models is proposed to jointly and flexibly model treatment and network effects. Experimental design and analysis considerations are discussed in the context of the proposed family of models.</p>
+<p>Collaborators:</p>
+<ul>
+<li>Trang Bui (University of Waterloo)</li>
+<li>Stefan Steiner(University of Waterloo)</li>
+</ul>
+</div></td></tr>
+    <tr><th id="stub_1_7" scope="row" class="gt_row gt_right gt_stub">14:30 - 15.00</th>
+<td headers="stub_1_7 speaker" class="gt_row gt_left" style="font-weight: bold;">Tea</td>
+<td headers="stub_1_7 affiliation" class="gt_row gt_left" style="font-weight: bold;"></td>
+<td headers="stub_1_7 title" class="gt_row gt_left" style="font-weight: bold;"></td>
+<td headers="stub_1_7 abstract" class="gt_row gt_left"></td></tr>
+    <tr><th id="stub_1_8" scope="row" class="gt_row gt_right gt_stub">15:00 - 17:00</th>
+<td headers="stub_1_8 speaker" class="gt_row gt_left gt_striped" style="font-weight: bold;">Invited session 1</td>
+<td headers="stub_1_8 affiliation" class="gt_row gt_left gt_striped" style="font-weight: bold;"></td>
+<td headers="stub_1_8 title" class="gt_row gt_left gt_striped" style="font-weight: bold;"></td>
+<td headers="stub_1_8 abstract" class="gt_row gt_left gt_striped"></td></tr>
+    <tr><th id="stub_1_9" scope="row" class="gt_row gt_right gt_stub"></th>
+<td headers="stub_1_9 speaker" class="gt_row gt_left" style="font-weight: bold;">Alessio Zanga</td>
+<td headers="stub_1_9 affiliation" class="gt_row gt_left" style="font-weight: bold;">University of Milano - Bicocca</td>
+<td headers="stub_1_9 title" class="gt_row gt_left" style="font-weight: bold;">Federated Causal Discovery with Missing Data in a Multicentric Study on Endometrial Cancer</td>
+<td headers="stub_1_9 abstract" class="gt_row gt_left"><div class="gt_from_md"><p>Causal discovery is the task of learning a causal graph representing the cause-effect relationships. Being able to establish causal dependencies is crucial in several applied domains, especially when the decision-making policy needs to be explainable, as in the case of medicine and healthcare. In these settings, small sample size and missing data call for federated approaches to take advantage of the information distributed across multiple sources. In this work, we introduce a novel federated causal discovery algorithm capable of pooling together information from multiple sources with heterogeneous missing data distributions. In particular, we propose a score-based approach that learns a global causal graph while taking into account local missingness mechanisms and prior knowledge. We applied the proposed algorithm on a real-world multicentric study on endometrial cancer, validating the obtained causal graph through quantitative analyses and clinical literature. The federated methodology showed promising results in recovering the underlying causal graph, especially in the presence of data missing not at random.</p>
+</div></td></tr>
+    <tr><th id="stub_1_10" scope="row" class="gt_row gt_right gt_stub"></th>
+<td headers="stub_1_10 speaker" class="gt_row gt_left gt_striped" style="font-weight: bold;">Kirsten Schorning</td>
+<td headers="stub_1_10 affiliation" class="gt_row gt_left gt_striped" style="font-weight: bold;">Technische Universitt Dortmund</td>
+<td headers="stub_1_10 title" class="gt_row gt_left gt_striped" style="font-weight: bold;">Optimal Designs for state estimation in electricity networks</td>
+<td headers="stub_1_10 abstract" class="gt_row gt_left gt_striped"></td></tr>
+    <tr><th id="stub_1_11" scope="row" class="gt_row gt_right gt_stub"></th>
+<td headers="stub_1_11 speaker" class="gt_row gt_left" style="font-weight: bold;">Ben Parker</td>
+<td headers="stub_1_11 affiliation" class="gt_row gt_left" style="font-weight: bold;">Brunel University</td>
+<td headers="stub_1_11 title" class="gt_row gt_left" style="font-weight: bold;">Design of Experiments for autoregressive networks</td>
+<td headers="stub_1_11 abstract" class="gt_row gt_left"></td></tr>
+    <tr><th id="stub_1_12" scope="row" class="gt_row gt_right gt_stub">17:00</th>
+<td headers="stub_1_12 speaker" class="gt_row gt_left gt_striped" style="font-weight: bold;">Close of the day</td>
+<td headers="stub_1_12 affiliation" class="gt_row gt_left gt_striped" style="font-weight: bold;"></td>
+<td headers="stub_1_12 title" class="gt_row gt_left gt_striped" style="font-weight: bold;"></td>
+<td headers="stub_1_12 abstract" class="gt_row gt_left gt_striped"></td></tr>
+  </tbody>
+  
+  
+</table>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane page-columns page-full" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div class="cell page-columns page-full">
+<div class="cell-output-display column-screen">
+
+<div id="svpkmxpdbf" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#svpkmxpdbf table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#svpkmxpdbf thead, #svpkmxpdbf tbody, #svpkmxpdbf tfoot, #svpkmxpdbf tr, #svpkmxpdbf td, #svpkmxpdbf th {
+  border-style: none;
+}
+
+#svpkmxpdbf p {
+  margin: 0;
+  padding: 0;
+}
+
+#svpkmxpdbf .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: 100%;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#svpkmxpdbf .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#svpkmxpdbf .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#svpkmxpdbf .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#svpkmxpdbf .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#svpkmxpdbf .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#svpkmxpdbf .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#svpkmxpdbf .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#svpkmxpdbf .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#svpkmxpdbf .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#svpkmxpdbf .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#svpkmxpdbf .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#svpkmxpdbf .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#svpkmxpdbf .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#svpkmxpdbf .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#svpkmxpdbf .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#svpkmxpdbf .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#svpkmxpdbf .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#svpkmxpdbf .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#svpkmxpdbf .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#svpkmxpdbf .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#svpkmxpdbf .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#svpkmxpdbf .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#svpkmxpdbf .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#svpkmxpdbf .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#svpkmxpdbf .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#svpkmxpdbf .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#svpkmxpdbf .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#svpkmxpdbf .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#svpkmxpdbf .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#svpkmxpdbf .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#svpkmxpdbf .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#svpkmxpdbf .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#svpkmxpdbf .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#svpkmxpdbf .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#svpkmxpdbf .gt_left {
+  text-align: left;
+}
+
+#svpkmxpdbf .gt_center {
+  text-align: center;
+}
+
+#svpkmxpdbf .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#svpkmxpdbf .gt_font_normal {
+  font-weight: normal;
+}
+
+#svpkmxpdbf .gt_font_bold {
+  font-weight: bold;
+}
+
+#svpkmxpdbf .gt_font_italic {
+  font-style: italic;
+}
+
+#svpkmxpdbf .gt_super {
+  font-size: 65%;
+}
+
+#svpkmxpdbf .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#svpkmxpdbf .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#svpkmxpdbf .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#svpkmxpdbf .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#svpkmxpdbf .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#svpkmxpdbf .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#svpkmxpdbf .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+<table class="gt_table" style="table-layout: fixed;; width: 100%" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+  <colgroup>
+    <col style="width:6%;">
+    <col style="width:10%;">
+    <col style="width:9%;">
+    <col style="width:15%;">
+    <col style="width:50%;">
+  </colgroup>
+  
+  <tbody class="gt_table_body">
+    <tr><th id="stub_1_1" scope="row" class="gt_row gt_right gt_stub">09:30-10:30</th>
+<td headers="stub_1_1 speaker" class="gt_row gt_left" style="font-weight: bold;">Keynote 3</td>
+<td headers="stub_1_1 affiliation" class="gt_row gt_left" style="font-weight: bold;"></td>
+<td headers="stub_1_1 title" class="gt_row gt_left" style="font-weight: bold;"></td>
+<td headers="stub_1_1 abstract" class="gt_row gt_left"></td></tr>
+    <tr><th id="stub_1_2" scope="row" class="gt_row gt_right gt_stub"></th>
+<td headers="stub_1_2 speaker" class="gt_row gt_left gt_striped" style="font-weight: bold;">Alexander Volfovsky</td>
+<td headers="stub_1_2 affiliation" class="gt_row gt_left gt_striped" style="font-weight: bold;">Duke University</td>
+<td headers="stub_1_2 title" class="gt_row gt_left gt_striped" style="font-weight: bold;">&nbsp;Neighborhood Adaptive Estimators for Causal Inference under Network Interference</td>
+<td headers="stub_1_2 abstract" class="gt_row gt_left gt_striped"></td></tr>
+    <tr><th id="stub_1_3" scope="row" class="gt_row gt_right gt_stub">10:30-11:00</th>
+<td headers="stub_1_3 speaker" class="gt_row gt_left" style="font-weight: bold;">Coffee</td>
+<td headers="stub_1_3 affiliation" class="gt_row gt_left" style="font-weight: bold;"></td>
+<td headers="stub_1_3 title" class="gt_row gt_left" style="font-weight: bold;"></td>
+<td headers="stub_1_3 abstract" class="gt_row gt_left"></td></tr>
+    <tr><th id="stub_1_4" scope="row" class="gt_row gt_right gt_stub">11:00-12:30</th>
+<td headers="stub_1_4 speaker" class="gt_row gt_left gt_striped" style="font-weight: bold;">Invited industry session</td>
+<td headers="stub_1_4 affiliation" class="gt_row gt_left gt_striped" style="font-weight: bold;"></td>
+<td headers="stub_1_4 title" class="gt_row gt_left gt_striped" style="font-weight: bold;"></td>
+<td headers="stub_1_4 abstract" class="gt_row gt_left gt_striped"></td></tr>
+    <tr><th id="stub_1_5" scope="row" class="gt_row gt_right gt_stub"></th>
+<td headers="stub_1_5 speaker" class="gt_row gt_left" style="font-weight: bold;">Eleni Kalfountzou</td>
+<td headers="stub_1_5 affiliation" class="gt_row gt_left" style="font-weight: bold;">Procter &amp; Gamble</td>
+<td headers="stub_1_5 title" class="gt_row gt_left" style="font-weight: bold;">Experimentation in the FMCG industry - when A/B testing is not enough</td>
+<td headers="stub_1_5 abstract" class="gt_row gt_left"></td></tr>
+    <tr><th id="stub_1_6" scope="row" class="gt_row gt_right gt_stub"></th>
+<td headers="stub_1_6 speaker" class="gt_row gt_left gt_striped" style="font-weight: bold;">Lorenzo Masoero</td>
+<td headers="stub_1_6 affiliation" class="gt_row gt_left gt_striped" style="font-weight: bold;">Amazon</td>
+<td headers="stub_1_6 title" class="gt_row gt_left gt_striped" style="font-weight: bold;"></td>
+<td headers="stub_1_6 abstract" class="gt_row gt_left gt_striped"></td></tr>
+    <tr><th id="stub_1_7" scope="row" class="gt_row gt_right gt_stub">12:30-14:00</th>
+<td headers="stub_1_7 speaker" class="gt_row gt_left" style="font-weight: bold;">Lunch</td>
+<td headers="stub_1_7 affiliation" class="gt_row gt_left" style="font-weight: bold;"></td>
+<td headers="stub_1_7 title" class="gt_row gt_left" style="font-weight: bold;"></td>
+<td headers="stub_1_7 abstract" class="gt_row gt_left"></td></tr>
+    <tr><th id="stub_1_8" scope="row" class="gt_row gt_right gt_stub">14:00-15:20</th>
+<td headers="stub_1_8 speaker" class="gt_row gt_left gt_striped" style="font-weight: bold;">Invited session 2</td>
+<td headers="stub_1_8 affiliation" class="gt_row gt_left gt_striped" style="font-weight: bold;"></td>
+<td headers="stub_1_8 title" class="gt_row gt_left gt_striped" style="font-weight: bold;"></td>
+<td headers="stub_1_8 abstract" class="gt_row gt_left gt_striped"></td></tr>
+    <tr><th id="stub_1_9" scope="row" class="gt_row gt_right gt_stub"></th>
+<td headers="stub_1_9 speaker" class="gt_row gt_left" style="font-weight: bold;">Tim Waite</td>
+<td headers="stub_1_9 affiliation" class="gt_row gt_left" style="font-weight: bold;">University of Manchester</td>
+<td headers="stub_1_9 title" class="gt_row gt_left" style="font-weight: bold;">Sequential Bayesian design with Laplace-parameterized policies</td>
+<td headers="stub_1_9 abstract" class="gt_row gt_left"><div class="gt_from_md"><p>In the past few years policy-based approaches have been developed as a method for sequential Bayesian design, building on ideas from dynamic programming and deep reinforcement learning. The idea is to construct in advance a policy, i.e. a mapping from the current knowledge state to the next set of experimental conditions at which to observe a response. This policy is to be constructed in such a way as to maximize the ultimate expected utility, e.g. the expected Shannon information gain, after all experiments have been completed. This is usually done by taking the policy to be a neural network, and optimizing its weights. However, a key question in policy-based approaches is how to represent the knowledge state, i.e. what to use as the input to the policy network. It is clear the knowledge state is completely specified by the posterior distribution, and so an attractive choice would be an approximation to the posterior, especially one with only a few parameters which could then serve as inputs to the policy network. In this talk we discuss the use of the Laplace approximation to the posterior as the knowledge representation, and develop the methodology needed to train policies based on Laplace representations.&nbsp;</p>
+</div></td></tr>
+    <tr><th id="stub_1_10" scope="row" class="gt_row gt_right gt_stub"></th>
+<td headers="stub_1_10 speaker" class="gt_row gt_left gt_striped" style="font-weight: bold;">Werner Müller</td>
+<td headers="stub_1_10 affiliation" class="gt_row gt_left gt_striped" style="font-weight: bold;">Johannes Kepler University Linz</td>
+<td headers="stub_1_10 title" class="gt_row gt_left gt_striped" style="font-weight: bold;">A practical guide to optimal design of experiments under correlation</td>
+<td headers="stub_1_10 abstract" class="gt_row gt_left gt_striped"></td></tr>
+    <tr><th id="stub_1_11" scope="row" class="gt_row gt_right gt_stub"></th>
+<td headers="stub_1_11 speaker" class="gt_row gt_left" style="font-weight: bold;">Ben Parker</td>
+<td headers="stub_1_11 affiliation" class="gt_row gt_left" style="font-weight: bold;">Brunel University</td>
+<td headers="stub_1_11 title" class="gt_row gt_left" style="font-weight: bold;">Design of Experiments for autoregressive networks</td>
+<td headers="stub_1_11 abstract" class="gt_row gt_left"></td></tr>
+    <tr><th id="stub_1_12" scope="row" class="gt_row gt_right gt_stub">15:20-16:00</th>
+<td headers="stub_1_12 speaker" class="gt_row gt_left gt_striped" style="font-weight: bold;">Tea</td>
+<td headers="stub_1_12 affiliation" class="gt_row gt_left gt_striped" style="font-weight: bold;"></td>
+<td headers="stub_1_12 title" class="gt_row gt_left gt_striped" style="font-weight: bold;"></td>
+<td headers="stub_1_12 abstract" class="gt_row gt_left gt_striped"></td></tr>
+    <tr><th id="stub_1_13" scope="row" class="gt_row gt_right gt_stub">16:00-17:00</th>
+<td headers="stub_1_13 speaker" class="gt_row gt_left" style="font-weight: bold;">Panel discussion</td>
+<td headers="stub_1_13 affiliation" class="gt_row gt_left" style="font-weight: bold;">The future of networked experiments</td>
+<td headers="stub_1_13 title" class="gt_row gt_left" style="font-weight: bold;"></td>
+<td headers="stub_1_13 abstract" class="gt_row gt_left"></td></tr>
+    <tr><th id="stub_1_14" scope="row" class="gt_row gt_right gt_stub"></th>
+<td headers="stub_1_14 speaker" class="gt_row gt_left gt_striped" style="font-weight: bold;">Chair: Steve Gilmour</td>
+<td headers="stub_1_14 affiliation" class="gt_row gt_left gt_striped" style="font-weight: bold;">King's College London</td>
+<td headers="stub_1_14 title" class="gt_row gt_left gt_striped" style="font-weight: bold;"></td>
+<td headers="stub_1_14 abstract" class="gt_row gt_left gt_striped"><div class="gt_from_md"><p>Panelists: Dean Eckles, Nathaniel Stevens, Alexander Volfovsky, Eleni Kalfountzou, Lorenzo Masoero, Rosemary Bailey</p>
+</div></td></tr>
+    <tr><th id="stub_1_15" scope="row" class="gt_row gt_right gt_stub">17:00-18:00</th>
+<td headers="stub_1_15 speaker" class="gt_row gt_left" style="font-weight: bold;">Reception</td>
+<td headers="stub_1_15 affiliation" class="gt_row gt_left" style="font-weight: bold;"></td>
+<td headers="stub_1_15 title" class="gt_row gt_left" style="font-weight: bold;"></td>
+<td headers="stub_1_15 abstract" class="gt_row gt_left"></td></tr>
+    <tr><th id="stub_1_16" scope="row" class="gt_row gt_right gt_stub">18:00</th>
+<td headers="stub_1_16 speaker" class="gt_row gt_left gt_striped" style="font-weight: bold;">Close of the day</td>
+<td headers="stub_1_16 affiliation" class="gt_row gt_left gt_striped" style="font-weight: bold;"></td>
+<td headers="stub_1_16 title" class="gt_row gt_left gt_striped" style="font-weight: bold;"></td>
+<td headers="stub_1_16 abstract" class="gt_row gt_left gt_striped"></td></tr>
+  </tbody>
+  
+  
+</table>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-1-3" class="tab-pane page-columns page-full" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<div class="cell page-columns page-full">
+<div class="cell-output-display column-screen">
+
+<div id="dipdnrjlzs" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#dipdnrjlzs table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#dipdnrjlzs thead, #dipdnrjlzs tbody, #dipdnrjlzs tfoot, #dipdnrjlzs tr, #dipdnrjlzs td, #dipdnrjlzs th {
+  border-style: none;
+}
+
+#dipdnrjlzs p {
+  margin: 0;
+  padding: 0;
+}
+
+#dipdnrjlzs .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: 100%;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#dipdnrjlzs .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#dipdnrjlzs .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#dipdnrjlzs .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#dipdnrjlzs .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#dipdnrjlzs .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#dipdnrjlzs .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#dipdnrjlzs .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#dipdnrjlzs .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#dipdnrjlzs .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#dipdnrjlzs .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#dipdnrjlzs .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#dipdnrjlzs .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#dipdnrjlzs .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#dipdnrjlzs .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#dipdnrjlzs .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#dipdnrjlzs .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#dipdnrjlzs .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#dipdnrjlzs .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#dipdnrjlzs .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#dipdnrjlzs .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#dipdnrjlzs .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#dipdnrjlzs .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#dipdnrjlzs .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#dipdnrjlzs .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#dipdnrjlzs .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#dipdnrjlzs .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#dipdnrjlzs .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#dipdnrjlzs .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#dipdnrjlzs .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#dipdnrjlzs .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#dipdnrjlzs .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#dipdnrjlzs .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#dipdnrjlzs .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#dipdnrjlzs .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#dipdnrjlzs .gt_left {
+  text-align: left;
+}
+
+#dipdnrjlzs .gt_center {
+  text-align: center;
+}
+
+#dipdnrjlzs .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#dipdnrjlzs .gt_font_normal {
+  font-weight: normal;
+}
+
+#dipdnrjlzs .gt_font_bold {
+  font-weight: bold;
+}
+
+#dipdnrjlzs .gt_font_italic {
+  font-style: italic;
+}
+
+#dipdnrjlzs .gt_super {
+  font-size: 65%;
+}
+
+#dipdnrjlzs .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#dipdnrjlzs .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#dipdnrjlzs .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#dipdnrjlzs .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#dipdnrjlzs .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#dipdnrjlzs .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#dipdnrjlzs .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+<table class="gt_table" style="table-layout: fixed;; width: 100%" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+  <colgroup>
+    <col style="width:6%;">
+    <col style="width:10%;">
+    <col style="width:9%;">
+    <col style="width:15%;">
+    <col style="width:50%;">
+  </colgroup>
+  
+  <tbody class="gt_table_body">
+    <tr><th id="stub_1_1" scope="row" class="gt_row gt_right gt_stub">09:30-10:30</th>
+<td headers="stub_1_1 speaker" class="gt_row gt_left" style="font-weight: bold;">Keynote 4</td>
+<td headers="stub_1_1 affiliation" class="gt_row gt_left" style="font-weight: bold;"></td>
+<td headers="stub_1_1 title" class="gt_row gt_left" style="font-weight: bold;"></td>
+<td headers="stub_1_1 abstract" class="gt_row gt_left"></td></tr>
+    <tr><th id="stub_1_2" scope="row" class="gt_row gt_right gt_stub"></th>
+<td headers="stub_1_2 speaker" class="gt_row gt_left gt_striped" style="font-weight: bold;">Rosemary Bailey</td>
+<td headers="stub_1_2 affiliation" class="gt_row gt_left gt_striped" style="font-weight: bold;">University of St Andrews</td>
+<td headers="stub_1_2 title" class="gt_row gt_left gt_striped" style="font-weight: bold;">Designs on strongly-regular graphs</td>
+<td headers="stub_1_2 abstract" class="gt_row gt_left gt_striped"><div class="gt_from_md"><p>Most networks can be regarded as graphs.  Some particularly nice graphs are the strongly-regular graphs.  The edges and non-edges of such graphs form the
+associate classes of an association scheme.  The corresponding Bose-Mesner algebra
+(linear combinations of the adjacency matrices) has three common eigenspaces, one of which consists of the constant vectors.<br></p>
+<p>In classical work on design of experiments, the experimental units are grouped into \(b\) blocks of size \(k\). There are three common eigenspaces. One consists of the constant vectors (it has dimension \(1\)); one consists of vectors which are constant on each block and whose entries sum to zero (it has dimension \(b-1\); the third is the orthogonal complement of these two (it has dimension \(b(k-1)\).</p>
+<p>In some experiments, the experimental units are all pairs of individuals who have to undertake a given task together. If all such pairs are used exactly once each, then the set of pairs forms a triangular association scheme. If there are \(n\) individuals then there are \(N = n(n − 1)/2\) such pairs. The corresponding Bose–Mesner algebra has three common eigenspaces. One consists of the constant vectors (it has dimension \(1\));
+one consists of linear combinations of the indicator vectors of individuals, constrained so that the entries sum to zero (it has dimension \(n−1\)); the third is the orthogonal complement of these two (it has dimension \(N − n\)).</p>
+<p>In both cases, we assume that the variance–covariance matrix \(C\) of the responses to the experiment is an unknown linear combination of the matrices of projection onto these eigenspaces.</p>
+<p>Two types of block design are particularly important. In balanced block designs, the variance of the estimated difference between any two treatments is the same, no matter what the eigenvalues of \(C\) are. In orthogonal block designs, the linear combination of responses which gives the best unbiased estimator of any difference between treatments does not depend on what the eigenvalues of \(C\) are. Such designs are often said to have commutative orthogonal block structure.</p>
+<p>In this talk I will give some constructions for balanced designs and some for designs
+which have commutative orthogonal block structure, in each scenario.</p>
+<p>This is joint work with P. Cameron (University of St Andrews) and D. Ferreira, S. S. Ferreira and C. Nunes (Universidade de Beira Interior).</p>
+</div></td></tr>
+    <tr><th id="stub_1_3" scope="row" class="gt_row gt_right gt_stub">10:30-11:00</th>
+<td headers="stub_1_3 speaker" class="gt_row gt_left" style="font-weight: bold;">Coffee</td>
+<td headers="stub_1_3 affiliation" class="gt_row gt_left" style="font-weight: bold;"></td>
+<td headers="stub_1_3 title" class="gt_row gt_left" style="font-weight: bold;"></td>
+<td headers="stub_1_3 abstract" class="gt_row gt_left"></td></tr>
+    <tr><th id="stub_1_4" scope="row" class="gt_row gt_right gt_stub">11:00-12:15</th>
+<td headers="stub_1_4 speaker" class="gt_row gt_left gt_striped" style="font-weight: bold;">Invited session 3</td>
+<td headers="stub_1_4 affiliation" class="gt_row gt_left gt_striped" style="font-weight: bold;"></td>
+<td headers="stub_1_4 title" class="gt_row gt_left gt_striped" style="font-weight: bold;"></td>
+<td headers="stub_1_4 abstract" class="gt_row gt_left gt_striped"></td></tr>
+    <tr><th id="stub_1_5" scope="row" class="gt_row gt_right gt_stub"></th>
+<td headers="stub_1_5 speaker" class="gt_row gt_left" style="font-weight: bold;">Francesca Panero</td>
+<td headers="stub_1_5 affiliation" class="gt_row gt_left" style="font-weight: bold;">Sapienza University</td>
+<td headers="stub_1_5 title" class="gt_row gt_left" style="font-weight: bold;">Modelling sparse networks with Bayesian nonparametrics</td>
+<td headers="stub_1_5 abstract" class="gt_row gt_left"><div class="gt_from_md"><p>The graphex is a statistical framework to model random graphs, originally introduced in Caron and Fox (2017). It is particularly flexible, in that by using carefully chosen Bayesian nonparametric priors it allows us to describe dense and sparse networks, different degree distributions (power-law included) and positive clustering. After introducing the general graphex framework and its asymptotic properties, I will explain how we model sparse networks embedded in a latent space and use this framework to uncover structures underlying mobility patterns. I will conclude by introducing a different variety of the graphex that allows to describe dynamic networks with overlapping communities.</p>
+</div></td></tr>
+    <tr><th id="stub_1_6" scope="row" class="gt_row gt_right gt_stub"></th>
+<td headers="stub_1_6 speaker" class="gt_row gt_left gt_striped" style="font-weight: bold;">Ruben Sanchez-Garcia</td>
+<td headers="stub_1_6 affiliation" class="gt_row gt_left gt_striped" style="font-weight: bold;">University of Southampton</td>
+<td headers="stub_1_6 title" class="gt_row gt_left gt_striped" style="font-weight: bold;">Exploiting symmetry in network analysis</td>
+<td headers="stub_1_6 abstract" class="gt_row gt_left gt_striped"></td></tr>
+    <tr><th id="stub_1_7" scope="row" class="gt_row gt_right gt_stub">12:15-13:30</th>
+<td headers="stub_1_7 speaker" class="gt_row gt_left" style="font-weight: bold;">Lunch</td>
+<td headers="stub_1_7 affiliation" class="gt_row gt_left" style="font-weight: bold;"></td>
+<td headers="stub_1_7 title" class="gt_row gt_left" style="font-weight: bold;"></td>
+<td headers="stub_1_7 abstract" class="gt_row gt_left"></td></tr>
+    <tr><th id="stub_1_8" scope="row" class="gt_row gt_right gt_stub">13:30-14:00</th>
+<td headers="stub_1_8 speaker" class="gt_row gt_left gt_striped" style="font-weight: bold;">Concluding remarks</td>
+<td headers="stub_1_8 affiliation" class="gt_row gt_left gt_striped" style="font-weight: bold;"></td>
+<td headers="stub_1_8 title" class="gt_row gt_left gt_striped" style="font-weight: bold;"></td>
+<td headers="stub_1_8 abstract" class="gt_row gt_left gt_striped"></td></tr>
+    <tr><th id="stub_1_9" scope="row" class="gt_row gt_right gt_stub">14:00</th>
+<td headers="stub_1_9 speaker" class="gt_row gt_left" style="font-weight: bold;">Close of the workshop</td>
+<td headers="stub_1_9 affiliation" class="gt_row gt_left" style="font-weight: bold;"></td>
+<td headers="stub_1_9 title" class="gt_row gt_left" style="font-weight: bold;"></td>
+<td headers="stub_1_9 abstract" class="gt_row gt_left"></td></tr>
+  </tbody>
+  
+  
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ © 2024 King's College London. Contact: <a href="mailto:V.Koutra@kcl.ac.uk">V.Koutra@kcl.ac.uk</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>
