@@ -15,7 +15,7 @@ website:
         text: Programme
   page-footer:
     center:
-      - text: "© 2024 King's College London. Contact: <a href=\"mailto:V.Koutra@kcl.ac.uk\">V.Koutra@kcl.ac.uk</a>"
+      - text: "© 2024 King's College London. Contact: <a href=\"mailto:vasiliki.koutra@kcl.ac.uk\">V.Koutra@kcl.ac.uk</a>"
       
 execute: 
   echo: false
