@@ -31,6 +31,7 @@ The conference is organised by [Dr Vasiliki Koutra](https://www.kcl.ac.uk/people
 
 ## Sponsors
 
+The workshop is funded by the International Centre for Mathematical Sciences and London Mathematical Society.
 
 ::: {layout="[[1,1], [1,1]]"}
 ![](images/icms.png)
