@@ -20,7 +20,7 @@ This workshop is in person and it is open to academic and industrial researchers
 The conference is organised by [Dr Vasiliki Koutra](https://www.kcl.ac.uk/people/vasiliki-koutra).
 
 
-King's events website: https://www.kcl.ac.uk/events/design-and-analysis-of-experiments-on-networks
+King's events' website: https://www.kcl.ac.uk/events/design-and-analysis-of-experiments-on-networks
 
 ## Keynote speakers
 
