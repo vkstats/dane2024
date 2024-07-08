@@ -24,3 +24,5 @@ leaflet() |>
 ```
 
 The workshop will be held at the [Strand Campus](https://www.kcl.ac.uk/visit/strand-campus) of [King's College London](https://www.kcl.ac.uk/). Scientific sessions will be held in the River Room.
+
+Accessibility -- River Room and toilet facilities have step-free access via lift (2nd floor). Once you enter the main reception, walk straight ahead towards the King's Building, lifts will be on your left hand side.
