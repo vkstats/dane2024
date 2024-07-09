@@ -15,12 +15,9 @@ knitr::include_graphics("images/network_people.png")
 
 Design and analysis of networked experiments is a novel area of research which finds practical use in most research disciplines, medical trials and industrial settings that involve connected experimental units. This workshop brings together leading researchers of the field of design and analysis of networked experiments. The aim is to enable in-depth discussions and initiate synergies between two dominant philosophies in networked experiments, optimal design and causal inference.
 
-This workshop is in person and it is open to academic and industrial researchers/practitioners in the areas of design and analysis of experiments, casual inference, combinatorics and networks.
+This [workshop](https://www.kcl.ac.uk/events/design-and-analysis-of-experiments-on-networks) is in person and it is open to academic and industrial researchers/practitioners in the areas of design and analysis of experiments, casual inference, combinatorics and networks.
 
-The conference is organised by [Dr Vasiliki Koutra](https://www.kcl.ac.uk/people/vasiliki-koutra).
-
-
-King's events' website: <https://www.kcl.ac.uk/events/design-and-analysis-of-experiments-on-networks>
+The workshop is organised by [Dr Vasiliki Koutra](https://www.kcl.ac.uk/people/vasiliki-koutra).
 
 ## Keynote speakers
 
