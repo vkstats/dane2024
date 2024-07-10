@@ -1,5 +1,6 @@
 ﻿day,time,speaker,affiliation,title,abstract
-Wednesday,10:30 - 11:00,Registration and coffee,,,
+Wednesday,10:30 - 10:55,Registration and coffee,,,
+Wednesday,10.55 - 11.00,Vasiliki Koutra,KCL,Welcome,
 Wednesday,11:00 - 12.00,Keynote 1,,,
 Wednesday,,Dean Eckles,MIT,Learning from randomized interventions in social media,"How should we reason about the effects of interventions in social media? What effect sizes should be expected from such changes to algorithms and content? And, given the fundamentally social nature of these services, what conclusions can we draw from individual-level experiments? I will comment on the published results from prominent, recent experiments on Facebook and Instagram conducted during the 2020 US Elections. I will also draw on two new field experiments on Facebook $(N>3.3\times 10^7)$ and Twitter $(N>7.5 \times 10^4)$, each randomizing exposure to advertising featuring content-general messages reminding people to think about accuracy.[[Paper]](https://osf.io/preprints/psyarxiv/u8anb)"
 Wednesday,12:00 - 13:30,Lunch,,,
