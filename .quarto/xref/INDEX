@@ -13,5 +13,19 @@
   },
   "programme.qmd": {
     "programme.html": "3e807ce7"
+  },
+  "opening/opening_vk.qmd": {
+    "opening_vk.html": "93aa3217"
+  },
+  "printed_programme/programme.qmd": {
+    "programme.tex": "21b54edf",
+    "programme.html": "68daf24e"
+  },
+  "printed_programme/printed_programme.qmd": {
+    "printed_programme.html": "cca888ba",
+    "printed_programme.tex": "8613de3e"
+  },
+  "printed_programme/printed_programme_temp.qmd": {
+    "printed_programme_temp.tex": "6bcfebe5"
   }
 }

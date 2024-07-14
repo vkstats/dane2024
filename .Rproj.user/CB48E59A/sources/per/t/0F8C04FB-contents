@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "DANE 2024"
@@ -14,7 +15,7 @@ website:
         text: Programme
   page-footer:
     center:
-      - text: "© 2024 King's College London. Contact: <a href=\"mailto:V.Koutra@kcl.ac.uk\">V.Koutra@kcl.ac.uk</a>"
+      - text: "© 2024 King's College London. Contact: <a href=\"mailto:vasiliki.koutra@kcl.ac.uk\">vasiliki.koutra@kcl.ac.uk</a>"
       
 execute: 
   echo: false
@@ -24,6 +25,9 @@ format:
     theme: journal
     css: styles.css
     toc: false
+    include-in-header:
+      - text: |
+          <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 
 

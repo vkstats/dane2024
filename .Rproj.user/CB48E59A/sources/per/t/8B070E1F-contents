@@ -15,15 +15,15 @@ knitr::include_graphics("images/network_people.png")
 
 Design and analysis of networked experiments is a novel area of research which finds practical use in most research disciplines, medical trials and industrial settings that involve connected experimental units. This workshop brings together leading researchers of the field of design and analysis of networked experiments. The aim is to enable in-depth discussions and initiate synergies between two dominant philosophies in networked experiments, optimal design and causal inference.
 
-This workshop is in person and it is open to academic and industrial researchers/practitioners in the areas of design and analysis of experiments, casual inference, combinatorics and networks.
+This [workshop](https://www.kcl.ac.uk/events/design-and-analysis-of-experiments-on-networks) is in person and it is open to academic and industrial researchers/practitioners in the areas of design and analysis of experiments, casual inference, combinatorics and networks.
 
-The conference is organised by [Dr Vasiliki Koutra](https://www.kcl.ac.uk/people/vasiliki-koutra).
+The workshop is organised by [Dr Vasiliki Koutra](https://www.kcl.ac.uk/people/vasiliki-koutra).
 
 ## Keynote speakers
 
  - Dr Dean Eckles (MIT)
 
- - Dr Panagiotis Toulis (Chicago Booth)
+ - Dr Alexander Volfovsky (Duke University)
 
  - Professor Rosemary Bailey (University of St Andrews)
 
@@ -31,11 +31,22 @@ The conference is organised by [Dr Vasiliki Koutra](https://www.kcl.ac.uk/people
 
 ## Sponsors
 
+::: {layout="[[1,1], [1,1]]"}
+![](images/icms.png)
+
+![](images/Kings.png)
+
+![](images/EPSRC.png)
+
+![](images/lms.png)
+:::
+
 ```{r}
-#| out.width: "40%"
+#| out.width: "20%"
 #| fig.show: "hold"
 #| fig.align: "center"
 #| fig.cap: ""
+#| eval: false
 knitr::include_graphics(c("images/icms.png", "images/Kings.png", "images/EPSRC.png", "images/lms.png"))
 ``` 
 

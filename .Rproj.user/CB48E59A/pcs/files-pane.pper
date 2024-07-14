@@ -1,9 +1,13 @@
 {
     "sortOrder": [
         {
+            "columnIndex": 4,
+            "ascending": false
+        },
+        {
             "columnIndex": 2,
             "ascending": true
         }
     ],
-    "path": "~/Dropbox/VGA/1. Work/dane2024"
+    "path": "~/Dropbox/VGA/1. Work/dane2024/docs"
 }

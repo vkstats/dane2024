@@ -7,6 +7,8 @@ subtitle: "17-19 July, King's College London"
 
 ```{r}
 #| fig.align: "center"
+#| message: false
+#| warning: false
 library(leaflet)
 leaflet() |>
   addTiles() |>
@@ -21,4 +23,10 @@ leaflet() |>
   )
 ```
 
-The workshop will be held at the [Strand Campus](https://www.kcl.ac.uk/visit/strand-campus) of [King's College London](https://www.kcl.ac.uk/). Scientific sessions will be held in the River Room.
+The workshop will be held at the [Strand Campus](https://www.kcl.ac.uk/visit/strand-campus) of [King's College London](https://www.kcl.ac.uk/). Scientific sessions will be held in Room K2.40.
+
+Accessibility -- K2.40, the River room (for refreshments) and toilet facilities have step-free access via a lift (to the 2nd floor). Once you enter the main reception, walk straight ahead towards the King's Building and lifts will be on your left-hand side.
+
+![](images/KB_level-2.png)
+
+

@@ -5,7 +5,7 @@ subtitle: "17-19 July, King's College London"
 
 ## Programme
 
-All scientific sessions are in Room K2.40. Coffee, lunch, tea and the reception are in the River room.
+All scientific sessions are in Room K2.40. Coffee, lunch, tea and the reception are in the River Room.
 
 ```{r}
 #| message: false
