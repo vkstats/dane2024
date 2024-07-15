@@ -9,6 +9,7 @@ All scientific sessions are in Room K2.40. Coffee, lunch, tea and the reception 
 
 ```{r}
 #| message: false
+#| warning: false
 library(gt)
 library(readr)
 library(janitor)
@@ -29,7 +30,7 @@ prog <- clean_names(prog)
 prog |> 
   filter(day == "Wednesday") |>
   select(-day) |>
-  gt(rowname_col = "time") |>
+  gt(rowname_col = "time", groupname_col = "session") |>
   sub_missing(
     missing_text = ""
     ) |>
@@ -47,15 +48,25 @@ prog |>
     affiliation ~ pct(9),
     title ~ pct(15)
   ) |>
-  opt_row_striping() |>
+  cols_hide(columns = session) |>
   tab_style(
-    style = cell_text(
-      weight = "bold"
-    ),
-    locations = cells_body(
-      columns = c(speaker, affiliation, title),
-      rows = everything()
-      )
+  style = list(
+    cell_fill(color = "lightgrey")
+  ),
+  locations = cells_row_groups()
+) |>
+  text_transform(
+    locations = cells_row_groups(),
+    fn = function(x) {
+      lapply(x, function(x) {
+        x <- strsplit(x, split = " (", fixed = T)[[1]]
+        if(length(x) > 1) {
+          gt::md(paste0("**", x[[1]], "**", " (", x[[2]]))
+        } else {
+          gt::md(paste0("**", x[[1]], "**"))
+        }
+      })
+    }
   )
 ```
 
@@ -66,7 +77,7 @@ prog |>
 prog |> 
   filter(day == "Thursday") |>
   select(-day) |>
-  gt(rowname_col = "time") |>
+  gt(rowname_col = "time", groupname_col = "session") |>
   sub_missing(
     missing_text = ""
     ) |>
@@ -84,15 +95,25 @@ prog |>
     affiliation ~ pct(9),
     title ~ pct(15)
   ) |>
-  opt_row_striping() |>
+  cols_hide(columns = session) |>
   tab_style(
-    style = cell_text(
-      weight = "bold"
-    ),
-    locations = cells_body(
-      columns = c(speaker, affiliation, title),
-      rows = everything()
-      )
+  style = list(
+    cell_fill(color = "lightgrey")
+  ),
+  locations = cells_row_groups()
+) |>
+  text_transform(
+    locations = cells_row_groups(),
+    fn = function(x) {
+      lapply(x, function(x) {
+        x <- strsplit(x, split = " (", fixed = T)[[1]]
+        if(length(x) > 1) {
+          gt::md(paste0("**", x[[1]], "**", " (", x[[2]]))
+        } else {
+          gt::md(paste0("**", x[[1]], "**"))
+        }
+      })
+    }
   )
 ```
 
@@ -103,7 +124,7 @@ prog |>
 prog |> 
   filter(day == "Friday") |>
   select(-day) |>
-  gt(rowname_col = "time") |>
+  gt(rowname_col = "time", groupname_col = "session") |>
   sub_missing(
     missing_text = ""
     ) |>
@@ -121,15 +142,25 @@ prog |>
     affiliation ~ pct(9),
     title ~ pct(15)
   ) |>
-  opt_row_striping() |>
+  cols_hide(columns = session) |>
   tab_style(
-    style = cell_text(
-      weight = "bold"
-    ),
-    locations = cells_body(
-      columns = c(speaker, affiliation, title),
-      rows = everything()
-      )
+  style = list(
+    cell_fill(color = "lightgrey")
+  ),
+  locations = cells_row_groups()
+) |>
+  text_transform(
+    locations = cells_row_groups(),
+    fn = function(x) {
+      lapply(x, function(x) {
+        x <- strsplit(x, split = " (", fixed = T)[[1]]
+        if(length(x) > 1) {
+          gt::md(paste0("**", x[[1]], "**", " (", x[[2]]))
+        } else {
+          gt::md(paste0("**", x[[1]], "**"))
+        }
+      })
+    }
   )
 ```
 
