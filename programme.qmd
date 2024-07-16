@@ -48,7 +48,6 @@ prog |>
     affiliation ~ pct(9),
     title ~ pct(15)
   ) |>
-  cols_hide(columns = session) |>
   tab_style(
   style = list(
     cell_fill(color = "lightgrey")
@@ -95,7 +94,6 @@ prog |>
     affiliation ~ pct(9),
     title ~ pct(15)
   ) |>
-  cols_hide(columns = session) |>
   tab_style(
   style = list(
     cell_fill(color = "lightgrey")
@@ -142,7 +140,6 @@ prog |>
     affiliation ~ pct(9),
     title ~ pct(15)
   ) |>
-  cols_hide(columns = session) |>
   tab_style(
   style = list(
     cell_fill(color = "lightgrey")
